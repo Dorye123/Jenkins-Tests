@@ -8,7 +8,7 @@ pipeline {
         }
         stage('run') {
             steps {
-                sh 'go gotest.go'
+                sh 'go Golang/gotest.go'
             }
         }
     }
